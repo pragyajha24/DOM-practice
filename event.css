@@ -1,0 +1,39 @@
+
+body{
+    margin:2rem;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 0.3rem 1rem;
+  border-radius: 9%;
+}
+
+.card-3, .card-2 ,.card-1{
+  padding:3rem;
+  border: 2px solid  grey;
+  border-radius:10px;
+}
+
+.container{
+  padding:3rem;
+  align-items: center;
+  border:2px solid grey;
+  border-radius: 10px;
+}
+
+.hidden-content{
+  display: none;
+}
+
+.hidden-content.visible{
+  display: block;
+}
