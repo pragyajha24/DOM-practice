@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    margin:4rem;
+    border:3px solid yellow;
+}
+
+h4{
+    display: inline-block;
+    border:2px solid red;
+    padding:1rem;
+    cursor: pointer;
+}
+
